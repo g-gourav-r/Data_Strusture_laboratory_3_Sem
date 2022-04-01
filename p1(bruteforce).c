@@ -30,16 +30,16 @@ void strmat(){
 
 void main(){
     printf("Enter the string : ");
-gets(str);
-printf("Enter the pattern : ");
-gets(pat);
-printf("Enter the string to be replaced : ");
-gets(rep);
-strmat();
-if(flag==1){
-    puts(ans);
-}
-else{
-    printf("String not found");
-}
+    gets(str);
+    printf("Enter the pattern : ");
+    gets(pat);
+    printf("Enter the string to be replaced : ");
+    gets(rep);
+    strmat();
+    if(flag==1){
+        puts(ans);
+    }
+    else{
+        printf("String not found");
+    }
 }
